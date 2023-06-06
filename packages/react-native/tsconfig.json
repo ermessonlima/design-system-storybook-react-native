@@ -1,4 +1,7 @@
-{
-  "compilerOptions": {},
-  "extends": "expo/tsconfig.base"
+{ 
+  "extends": "@react-native-ui/ts-config/react.json",
+  "include": ["src", "dist/index.d.ts"],
+  "compilerOptions": {
+    "strict": true
+  }
 }
